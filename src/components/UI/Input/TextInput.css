@@ -1,16 +1,31 @@
+/* Заголовок инпута */
+.input-label {
+    font-size: var(--fs-small);
+    margin-bottom: var(--gap-1);
+}
+
 /* Текст ошибки под инпутом */
 .input-error, .form-error {
     color: var(--text-accent);
     font-size: var(--fs-small);
 }
 
+/* Блок с input-wrapper и span */
 .ui-text-input {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-1);
+}
+
+/* Блок с инпутом */
+.ui-text-input .input-wrapper {
     width: 100%;
     height: var(--input-height);
     position: relative;
 }
 
-.ui-text-input .input-image {
+/* Иконка слева от инпута */
+.ui-text-input .input-wrapper .input-image {
     position: absolute;
     top: 50%;
     left: 12px;
@@ -18,10 +33,13 @@
 }
 
 /* Делаем высоту инпута равной высоте обвертки и даем пространство для картинки */
-.ui-text-input input:is([type="text"], [type="email"], [type="password"]) {
+.ui-text-input .input-wrapper input:is([type="text"], [type="email"], [type="password"]) {
     height: 100%;
     padding: 12px 12px 12px 44px;
 }
 
 /* Большой инпут */
-.ui-text-input.input--big { height: var(--input-height-big); }
+.ui-text-input.input--big .input-wrapper { height: var(--input-height-big); }
+
+/* Во всю ширину контейнера */
+.ui-text-input.input--width100 { width: 100%; }

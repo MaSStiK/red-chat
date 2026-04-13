@@ -11,8 +11,6 @@ export default function Profile() {
     const user = useAtomValue(userAtom)
     const logout = useLogout()
 
-    console.log(user);
-
     return (
         <div className="profile flex-row">
             <div className="flex-row gap-3">

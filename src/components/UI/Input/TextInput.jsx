@@ -18,23 +18,26 @@ import "./TextInput.css"
 export default function TextInput({
     className="", style,
     type="text",
+    label,
 
     // Пропсы для отображения картинки
     icon, alt="button-image", color="#FFFFFF",
     
     // Модификаторы
     big,
+    width100,
     error,
     
     // Все остальное летит в инпут
     // id, name, placeholder, minLength, maxLength, onInput, onChange, required, disabled
-    ...rest
+    id, ...rest
 }) {
     // Добавляем стиль-модификатор перед передаваемыми классами
     const classes = clsx(
         "ui-text-input",
         {
             "input--big": big, // Большой инпут 50px
+            "input--width100": width100, // Растяжение на всю ширину
         },
         className
     );
@@ -51,10 +54,12 @@ export default function TextInput({
     )    
 
     return (
-        <div className="flex-col gap-1">
-            <div {...commonProps}>
+        <div {...commonProps}>
+            {label && <label className="input-label" htmlFor={id}>{label}</label>}
+            <div className="input-wrapper">
                 {content}
                 <input {...rest}
+                    id={id}
                     className={error ? "error" : ""}
                     type={type}
                     aria-invalid={!!error}

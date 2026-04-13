@@ -72,37 +72,33 @@ export default function Login({ setForm }) {
             </div>
 
             <form className="flex-col gap-4" onSubmit={handleSubmit}>
-                <div className="flex-col gap-2">
-                    <label htmlFor="email" className="fs-small">Email</label>
-                    <TextInput
-                        id="email"
-                        name="email"
-                        type="email"
-                        icon={Mail} color="#7E6f6E"
-                        placeholder="your@email.com"
-                        maxLength={USER_LIMITS.email.max}
-                        error={errors.email}
-                        onChange={() => { setErrors((prev) => ({ ...prev, email: undefined })) }}
-                        required
-                        big
-                    />
-                </div>
-                <div className="flex-col gap-2">
-                    <label htmlFor="password" className="fs-small">Password</label>
-                    <TextInput
-                        id="password"
-                        name="password"
-                        type="password"
-                        icon={Lock} color="#7E6f6E"
-                        placeholder="•••••••••"
-                        minLength={USER_LIMITS.password.min}
-                        maxLength={USER_LIMITS.password.max}
-                        error={errors.password}
-                        onChange={() => { setErrors((prev) => ({ ...prev, password: undefined })) }}
-                        required
-                        big
-                    />
-                </div>
+                <TextInput
+                    id="email"
+                    name="email"
+                    label="Email"
+                    type="email"
+                    icon={Mail} color="#7E6f6E"
+                    placeholder="your@email.com"
+                    maxLength={USER_LIMITS.email.max}
+                    error={errors.email}
+                    onChange={() => { setErrors((prev) => ({ ...prev, email: undefined })) }}
+                    required
+                    big
+                />
+                <TextInput
+                    id="password"
+                    name="password"
+                    label="Password"
+                    type="password"
+                    icon={Lock} color="#7E6f6E"
+                    placeholder="•••••••••"
+                    minLength={USER_LIMITS.password.min}
+                    maxLength={USER_LIMITS.password.max}
+                    error={errors.password}
+                    onChange={() => { setErrors((prev) => ({ ...prev, password: undefined })) }}
+                    required
+                    big
+                />
                 {formError && <span className="form-error">{formError }</span>}
                 <Button
                     text={loading ? "Загрузка..." : "Войти"}
