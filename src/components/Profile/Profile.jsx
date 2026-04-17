@@ -1,9 +1,10 @@
 "use client"
+import ProfileAvatar from "@/components/ProfileAvatar/ProfileAvatar"
 import Button from "@/components/UI/Button/Button"
 import useLogout from "./Logout"
 import { Settings, LogOut } from "lucide-react"
 import { useAtomValue } from "jotai"
-import { userAtom } from "@/atoms/auth"
+import { userAtom } from "@/atoms/app"
 
 import "./Profile.css"
 
@@ -14,12 +15,10 @@ export default function Profile() {
     return (
         <div className="profile flex-row">
             <div className="flex-row gap-3">
-                <div className="profile__avatar">
-                    <span className="fs-large fw-semibold">М</span>
-                </div>
+                <ProfileAvatar name={user?.name || ""} />
                 <div className="flex-col">
                     <h3>{user?.name}</h3>
-                    <span className="fs-small text-gray profile-tag">@{user?.email}</span>
+                    <span className="fs-small text-gray">@{user?.email}</span>
                 </div>
             </div>
             <div className="flex-row gap-2">

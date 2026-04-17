@@ -1,5 +1,5 @@
 import { useSetAtom } from "jotai"
-import { userAtom } from "@/atoms/auth"
+import { userAtom } from "@/atoms/app"
 import { useRouter } from "next/navigation"
 
 export default function useLogout() {

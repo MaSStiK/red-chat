@@ -1,6 +1,6 @@
-import MessagesNotFound from "./MessagesNotFound/MessagesNotFound"
-import Profile from "./Profile/Profile"
+import Profile from "@/components/Profile/Profile"
 import Searchbar from "./Searchbar/Searchbar"
+import Chats from "@/components/Chats/Chats"
 import "./Sidebar.css"
 
 export default function Sidebar() {
@@ -10,7 +10,7 @@ export default function Sidebar() {
             <Searchbar />
 
             {/* if messages > messages else not found */}
-            <MessagesNotFound />
+            <Chats />
         </div>
     )
 }

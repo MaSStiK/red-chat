@@ -18,7 +18,7 @@ import "./TextInput.css"
 export default function TextInput({
     className="", style,
     type="text",
-    label,
+    label, error,
 
     // Пропсы для отображения картинки
     icon, alt="button-image", color="#FFFFFF",
@@ -26,7 +26,6 @@ export default function TextInput({
     // Модификаторы
     big,
     width100,
-    error,
     
     // Все остальное летит в инпут
     // id, name, placeholder, minLength, maxLength, onInput, onChange, required, disabled

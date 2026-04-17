@@ -3,6 +3,7 @@ import MongoConnect from "@/lib/mongodb"
 import User from "@/lib/mongodb/models/User"
 import { verifyToken } from "@/lib/auth"
 
+// Функция используется в layout для получения актуальной информации о пользователе при старте приложения
 export default async function getCurrentUser() {
     try {
         const cookieStore = await cookies()

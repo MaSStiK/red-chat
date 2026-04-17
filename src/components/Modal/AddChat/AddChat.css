@@ -1,0 +1,14 @@
+.add-chat {
+    width: 392px;
+}
+
+.add-chat__icon {
+    width: 96px;
+    height: 96px;
+    border-radius: 48px;
+    background-color: #4b1617;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+}

@@ -9,9 +9,8 @@ import "./app-phone.css"
 export default async function MainLayout({ children }) {
     const user = await getCurrentUser()
 
-    if (!user) {
-        redirect("/auth")
-    }
+    // Если пользователь не авторизован редиректим его на страницу входа
+    if (!user) redirect("/auth")
 
     return (
         <AuthProvider user={user}>

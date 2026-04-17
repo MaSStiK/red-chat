@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server"
-import bcrypt from "bcryptjs"
-import MongoConnect from "@/lib/mongodb"
-import User from "@/lib/mongodb/models/User"
 import { validateRegistration } from "@/lib/validation/validateRegistration"
+import MongoConnect from "@/lib/mongodb"
+import bcrypt from "bcryptjs"
+import User from "@/lib/mongodb/models/User"
 import { signToken } from "@/lib/auth"
 
 export async function POST(req) {
