@@ -1,8 +1,8 @@
 import { Montserrat } from "next/font/google"
 
 const THEME_COLOR = "#24182C"
-const SITE_TITLE = "Мотя Чат"
-const SITE_DESCRIPTION = "Мотя Чат — современный мессенджер, вдохновлённый Telegram, с поддержкой чатов в реальном времени, удобной архитектурой и высокой производительностью."
+const SITE_TITLE = "Red Chat"
+const SITE_DESCRIPTION = "Red Chat — современный мессенджер, вдохновлённый Telegram, с поддержкой чатов в реальном времени, удобной архитектурой и высокой производительностью."
 const SITE_URL = "https://hedgehog-rp.ru"
 
 export const montserrat = Montserrat({
@@ -66,12 +66,12 @@ export const _metadata = {
     },
     authors: [{ name: "MaSStiK", url: "https://hedgehog-rp.ru/about" }],
     keywords: [
-        "Мотя Чат",
-        "Мотя чат",
-        "мотя чат",
-        "Motya Chat",
-        "Motya chat",
-        "motya chat",
+        "Ред Чат",
+        "Ред чат",
+        "ред чат",
+        "Red Chat",
+        "Red chat",
+        "red chat",
         "мессенджер",
         "чат приложение",
         "онлайн чат",
