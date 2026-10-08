@@ -1,10 +1,11 @@
-<p align="right">
+<p class="language-switch" align="right">
   <a href="./README.md">🇺🇸 English</a> |
-  <a href="./README-ru.md">🇷🇺 Русский</a> |
-  <a href="./README-fr.md">🇫🇷 Français</a>
+  <a href="./README.ru.md">🇷🇺 Русский</a> |
+  <a href="./README.fr.md">🇫🇷 Français</a>
 </p>
 
 # Red Chat (Next.js)
+
 **Red Chat** is a modern messaging platform inspired by Telegram.  
 It supports real-time messaging, user profiles, chats, and an extensible architecture designed for future development.
 
@@ -13,6 +14,7 @@ It supports real-time messaging, user profiles, chats, and an extensible archite
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **Next.js** - Application framework and routing
 - **React** - User interface library
 - **Jotai** - Application state management
@@ -25,13 +27,17 @@ It supports real-time messaging, user profiles, chats, and an extensible archite
 - **Radix UI** - Accessible UI components
 
 ### Backend
+
 - **MongoDB** - Primary project database
 - **Mongoose** - ODM for MongoDB
 - **bcryptjs** - Password hashing and security
 - **jsonwebtoken** - JWT authentication
 - **Zod** - Data and schema validation
 
+<!-- portfolio:hide:start -->
+
 ## 📸 Screenshots
+
 <table>
     <tr>
         <td align="center">
@@ -58,3 +64,5 @@ It supports real-time messaging, user profiles, chats, and an extensible archite
         </td>
     </tr>
 </table>
+
+<!-- portfolio:hide:end -->

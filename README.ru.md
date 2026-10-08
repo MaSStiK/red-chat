@@ -1,10 +1,11 @@
-<p align="right">
+<p class="language-switch" align="right">
   <a href="./README.md">🇺🇸 English</a> |
-  <a href="./README-ru.md">🇷🇺 Русский</a> |
-  <a href="./README-fr.md">🇫🇷 Français</a>
+  <a href="./README.ru.md">🇷🇺 Русский</a> |
+  <a href="./README.fr.md">🇫🇷 Français</a>
 </p>
 
 # Red Chat (Next.js)
+
 **Red Chat** - это мессенджер, вдохновлённый функциональностью Telegram.  
 Поддерживает обмен сообщениями в реальном времени, пользовательские профили, чаты и расширяемую архитектуру для дальнейшего развития.
 
@@ -13,6 +14,7 @@
 ## 🛠️ Технологический стек
 
 ### Frontend
+
 - **Next.js** - Фреймворк приложения и система маршрутизации
 - **React** - Библиотека пользовательского интерфейса
 - **Jotai** - Управление состоянием приложения
@@ -25,14 +27,18 @@
 - **Radix UI** - Доступные UI-компоненты
 
 ### Backend
+
 - **MongoDB** - Основная база данных проекта
 - **Mongoose** - ODM для MongoDB
 - **bcryptjs** - Хеширование и защита паролей
 - **jsonwebtoken** - Аутентификация на основе JWT
 - **Zod** - Валидация данных и схем
 
+<!-- portfolio:hide:start -->
+
 ## 📸 Скриншоты сайта
-<table>
+
+<table class="gallery">
     <tr>
         <td align="center">
             <img width="500" alt="screenshot" src="https://github.com/user-attachments/assets/d44e4857-9b25-4f1c-b168-609307004132" />
@@ -58,3 +64,5 @@
         </td>
     </tr>
 </table>
+
+<!-- portfolio:hide:end -->

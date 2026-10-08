@@ -1,10 +1,11 @@
-<p align="right">
+<p class="language-switch" align="right">
   <a href="./README.md">🇺🇸 English</a> |
-  <a href="./README-ru.md">🇷🇺 Русский</a> |
-  <a href="./README-fr.md">🇫🇷 Français</a>
+  <a href="./README.ru.md">🇷🇺 Русский</a> |
+  <a href="./README.fr.md">🇫🇷 Français</a>
 </p>
 
 # Red Chat (Next.js)
+
 **Red Chat** est une plateforme de messagerie moderne inspirée de Telegram.  
 Elle prend en charge la messagerie en temps réel, les profils utilisateurs, les discussions et une architecture extensible conçue pour faciliter le développement futur du projet.
 
@@ -13,6 +14,7 @@ Elle prend en charge la messagerie en temps réel, les profils utilisateurs, les
 ## 🛠️ Stack technique
 
 ### Frontend
+
 - **Next.js** - Framework principal et système de routage
 - **React** - Bibliothèque d’interface utilisateur
 - **Jotai** - Gestion de l’état de l’application
@@ -25,13 +27,17 @@ Elle prend en charge la messagerie en temps réel, les profils utilisateurs, les
 - **Radix UI** - Composants UI accessibles
 
 ### Backend
+
 - **MongoDB** - Base de données principale du projet
 - **Mongoose** - ODM pour MongoDB
 - **bcryptjs** - Hachage et sécurisation des mots de passe
 - **jsonwebtoken** - Authentification JWT
 - **Zod** - Validation des données et des schémas
 
+<!-- portfolio:hide:start -->
+
 ## 📸 Captures d’écran
+
 <table>
     <tr>
         <td align="center">
@@ -58,3 +64,5 @@ Elle prend en charge la messagerie en temps réel, les profils utilisateurs, les
         </td>
     </tr>
 </table>
+
+<!-- portfolio:hide:end -->
