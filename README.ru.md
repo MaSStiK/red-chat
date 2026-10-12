@@ -1,10 +1,14 @@
-<p class="language-switch" align="right">
-  <a href="./README.md">🇺🇸 English</a> |
-  <a href="./README.ru.md">🇷🇺 Русский</a> |
+<p class="language-switch" align="center">
+  <a href="./README.md">🇺🇸 English</a> •
+  <a href="./README.ru.md">🇷🇺 Русский</a> •
   <a href="./README.fr.md">🇫🇷 Français</a>
 </p>
 
+<div align="center">
+
 # Red Chat (Next.js)
+
+</div>
 
 **Red Chat** - это мессенджер, вдохновлённый функциональностью Telegram.  
 Поддерживает обмен сообщениями в реальном времени, пользовательские профили, чаты и расширяемую архитектуру для дальнейшего развития.

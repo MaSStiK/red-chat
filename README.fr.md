@@ -1,10 +1,14 @@
-<p class="language-switch" align="right">
-  <a href="./README.md">🇺🇸 English</a> |
-  <a href="./README.ru.md">🇷🇺 Русский</a> |
+<p class="language-switch" align="center">
+  <a href="./README.md">🇺🇸 English</a> •
+  <a href="./README.ru.md">🇷🇺 Русский</a> •
   <a href="./README.fr.md">🇫🇷 Français</a>
 </p>
 
+<div align="center">
+
 # Red Chat (Next.js)
+
+</div>
 
 **Red Chat** est une plateforme de messagerie moderne inspirée de Telegram.  
 Elle prend en charge la messagerie en temps réel, les profils utilisateurs, les discussions et une architecture extensible conçue pour faciliter le développement futur du projet.
