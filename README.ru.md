@@ -10,10 +10,15 @@
 
 </div>
 
-**Red Chat** - это мессенджер, вдохновлённый функциональностью Telegram.  
-Поддерживает обмен сообщениями в реальном времени, пользовательские профили, чаты и расширяемую архитектуру для дальнейшего развития.
+**Red Chat** - мессенджер, вдохновлённый Telegram. Его расширяемая архитектура рассчитана на дальнейшее развитие проекта.
 
 > 🚧 Проект в разработке.
+
+## ✨ Возможности
+
+- Обмен сообщениями в реальном времени
+- Пользовательские профили
+- Чаты
 
 ## 🛠️ Технологический стек
 
@@ -42,27 +47,27 @@
 
 ## 📸 Скриншоты сайта
 
-<table class="gallery">
+<table>
     <tr>
         <td align="center">
-            <img width="500" alt="screenshot" src="https://github.com/user-attachments/assets/d44e4857-9b25-4f1c-b168-609307004132" />
+            <img width="500" alt="Главная страница" src="https://github.com/user-attachments/assets/d44e4857-9b25-4f1c-b168-609307004132" />
             <br>
             <p>Главная страница</p>
         </td>
         <td align="center">
-            <img width="500" alt="screenshot" src="https://github.com/user-attachments/assets/fb08778b-cdf9-42dd-8e5f-379dd5b610c9" />
+            <img width="500" alt="Открытый чат" src="https://github.com/user-attachments/assets/fb08778b-cdf9-42dd-8e5f-379dd5b610c9" />
             <br>
             <p>Открытый чат</p>
         </td>
     </tr>
     <tr>
         <td align="center">
-            <img width="500" alt="screenshot" src="https://github.com/user-attachments/assets/4c75a5ae-e642-4c18-ba93-d48991fcbc60" />
+            <img width="500" alt="Страница входа" src="https://github.com/user-attachments/assets/4c75a5ae-e642-4c18-ba93-d48991fcbc60" />
             <br>
             <p>Страница входа</p>
         </td>
         <td align="center">
-            <img width="500" alt="screenshot" src="https://github.com/user-attachments/assets/d9835916-4b5a-4232-a89e-f04993bae17d" />
+            <img width="500" alt="Страница регистрации" src="https://github.com/user-attachments/assets/d9835916-4b5a-4232-a89e-f04993bae17d" />
             <br>
             <p>Страница регистрации</p>
         </td>
