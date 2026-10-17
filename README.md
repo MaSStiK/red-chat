@@ -6,7 +6,7 @@
 
 <div align="center">
 
-# Red Chat (Next.js)
+# Red Chat (Next.js test)
 
 </div>
 
